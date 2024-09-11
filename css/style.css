@@ -1,0 +1,790 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 1.4rem;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li,
+ol li,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+/*-------------------------------------------------------*/
+
+:root {
+  --bg-color: #fff;
+  --logo-text-color: #595653;
+  --hero-bg-color: #e9ded4;
+  --title-text-color: #313131;
+  --hero-black-btn-text-color: #fff;
+  --hero-black-btn-bg-color: #1f1f1f;
+  --hero-btn-text-color: #1f1f1f;
+  --hero-black-btn-hover-bg-color: #fbce51;
+  --main-red-color: #f54932;
+  --running-line-text-color: #fff;
+  --table-border-color: #d0d0d0;
+  --main-blue-color: #3057a2;
+  --card-text-color: #313131;
+  --card-num-text-color: #313131;
+  --control-btn-bg-color: #313131;
+  --control-btn-hover-color: #fbce51;
+  --control-btn-disabled-color: #d6d6d6;
+  --control-counter-text-color: #313131;
+  --details-btn-hover-color: #fff;
+  --footer-bg-color: #e9ded4;
+}
+
+@font-face {
+  font-family: 'merriweatherRegular';
+  src: url(../assets/fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'merriweatherBold';
+  src: url(../assets/fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'golosTextRegular';
+  src: url(../assets/fonts/GolosText-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'golosTextMedium';
+  src: url(../assets/fonts/GolosText-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'golosTextSemiBold';
+  src: url(../assets/fonts/GolosText-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'golosTextBold';
+  src: url(../assets/fonts/GolosText-Bold.ttf);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.section {
+  max-width: 136.6rem;
+  margin: 0 auto;
+}
+
+.resp-m {
+  display: none;
+}
+
+/* ========================================= */
+/* SECTION HERO */
+
+.section__hero {
+  max-width: 100%;
+  position: relative;
+  min-height: 70rem;
+  background-color: var(--hero-bg-color);
+  background-image: url(../assets/imgs/hero/hero_bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+}
+
+.hero {
+  max-width: 136.6rem;
+  margin: 0 auto;
+  padding: 0rem 7.2rem;
+}
+
+.logo {
+  margin-top: 2.6rem;
+  margin-bottom: 6.2rem;
+  max-width: 25rem;
+  min-height: 3.6rem;
+  color: var(--logo-text-color);
+  display: flex;
+  gap: 0.635rem;
+  align-items: center;
+}
+
+.logo-icons > svg {
+  width: 2.165rem;
+}
+
+.logo-title {
+  text-transform: uppercase;
+  font-family: 'golosTextBold';
+  line-height: 1.08;
+  font-size: 1.665rem;
+}
+
+.hero__title {
+  max-width: 54.2rem;
+}
+
+.hero__title > h1 {
+  font-family: 'merriweatherRegular';
+  text-transform: uppercase;
+  font-size: 6rem;
+  line-height: 1.1;
+}
+
+.hero__title > h1,
+h3 {
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.hero__title > h1:first-child {
+  text-align: left;
+}
+
+.hero__title > h3 {
+  font-family: 'golosTextRegular';
+  margin-top: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+.hero__btns {
+  margin-top: 4rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.hero__btns > a {
+  font-family: 'golosTextMedium';
+  font-size: 1.6rem;
+  line-height: 1.3;
+  border-radius: 6.6rem;
+  min-width: 26.3rem;
+  min-height: 7.2rem;
+  transition: all 0.3s ease;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn__support {
+  color: var(--hero-black-btn-text-color);
+  background-color: var(--hero-black-btn-bg-color);
+}
+
+.btn__support:hover {
+  background-color: var(--hero-black-btn-hover-bg-color);
+  color: var(--hero-btn-text-color);
+}
+
+.btn__info {
+  border: 0.2rem solid var(--hero-btn-text-color);
+  color: var(--hero-btn-text-color);
+  background-color: transparent;
+}
+
+.btn__info:hover {
+  background-color: var(--hero-btn-text-color);
+  color: var(--hero-black-btn-text-color);
+}
+
+.background {
+  position: absolute;
+}
+
+.roughness-effect {
+  min-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  mix-blend-mode: color-burn;
+  z-index: 6;
+}
+
+.running-line {
+  --gap: 1.2rem;
+  margin-top: 12.9rem;
+  position: relative;
+  min-height: 6rem;
+  background-color: var(--main-red-color);
+  display: flex;
+  gap: var(--gap);
+  overflow: hidden;
+  user-select: none;
+  z-index: 100;
+}
+
+.running-line__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--gap);
+  min-width: 100%;
+  font-family: 'merriweatherRegular';
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: var(--running-line-text-color);
+  line-height: 1.1;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.running-line__circle {
+  display: inline-block;
+  border-radius: 100rem;
+  border: 0;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: var(--running-line-text-color);
+}
+
+/* ========================================= */
+/* SECTION INFO */
+
+.info {
+  padding: 8rem 7.2rem 0rem 7.2rem;
+}
+
+.support-title__container {
+  display: flex;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.support-title__text {
+  font-size: 3.6rem;
+  line-height: 1.35;
+  font-family: 'merriweatherRegular';
+  color: var(--title-text-color);
+  text-transform: uppercase;
+}
+
+.support-title__text > .resp-w > span,
+.support-title__text > .resp-m > span {
+  font-family: 'merriweatherBold';
+  color: var(--main-red-color);
+}
+
+.support-title__img {
+  max-width: 39.4rem;
+}
+
+.support__container {
+  margin-top: 1.7rem;
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+}
+
+.support__picture-container {
+  min-width: 52.8rem;
+}
+
+.support__picture-container > img {
+  max-width: 100%;
+}
+
+.support__description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.support__description-title {
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  line-height: 1.35;
+  max-height: 14.7rem;
+  font-family: 'merriweatherRegular';
+  color: var(--title-text-color);
+}
+
+.support__description-title > span {
+  font-family: 'merriweatherBold';
+  color: var(--main-red-color);
+}
+
+.support__description-table {
+  color: var(--title-text-color);
+  font-size: 2rem;
+  font-family: 'golosTextRegular';
+  margin-top: 6rem;
+  overflow: hidden;
+}
+
+.support__description-table > .table-row:first-child > div {
+  align-items: normal;
+}
+
+.support__description-table > .table-row:first-child {
+  max-height: 4rem;
+}
+
+.support__description-table > .table-row:last-child {
+  border-bottom: 0;
+  max-height: 4rem;
+  overflow: hidden;
+}
+
+.table-row {
+  display: flex;
+  gap: 1.6rem;
+  min-width: 100%;
+  border-bottom: 0.2rem solid var(--table-border-color);
+}
+
+.table-name {
+  font-family: 'golosTextRegular';
+  min-width: 29rem;
+  min-height: 5.4rem;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+}
+
+.table-value {
+  border-left: 0.2rem solid var(--table-border-color);
+  font-family: 'golosTextSemiBold';
+  min-width: 38.2rem;
+  min-height: 5.4rem;
+  padding-left: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.line-inner {
+  color: var(--title-text-color);
+}
+
+.line-outer {
+  color: var(--main-red-color);
+  text-decoration: line-through;
+  margin-right: 1.2rem;
+}
+
+.support__questions {
+  margin-top: 4.8rem;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-family: 'golosTextRegular';
+  color: var(--main-blue-color);
+}
+
+/* ========================================= */
+/* SECTION STAGES */
+
+.stages {
+  padding: 20rem 7.2rem 0rem 7.2rem;
+}
+
+.stages-title__container {
+  max-width: 80.6rem;
+  position: relative;
+}
+
+.stages-title__text {
+  font-family: 'merriweatherRegular';
+  line-height: 1.2;
+  font-size: 5.4rem;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.stages-title__container > h3 {
+  font-size: 2rem;
+  font-family: 'golosTextRegular';
+  color: var(--main-blue-color);
+  line-height: 1.2;
+  max-width: 28rem;
+  text-align: left;
+  position: absolute;
+  bottom: 10;
+  left: 301;
+}
+
+.stages-info__container {
+  margin-top: 5.4rem;
+  font-family: 'golosTextMedium';
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  position: relative;
+}
+
+.stages-info__card {
+  padding: 2rem;
+  display: flex;
+  gap: 1.6rem;
+  background-image: url(../assets/imgs/stages/cooper_union_stamp_paper.png);
+  background-size: cover;
+  max-height: 11.2rem;
+}
+
+.card__num {
+  font-family: 'golosTextSemiBold';
+  max-width: 3.6rem;
+  max-height: 3.6rem;
+  min-width: 3.6rem;
+  min-height: 3.6rem;
+  background-color: var(--bg-color);
+  color: var(--card-num-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100rem;
+}
+
+.card__text {
+  color: var(--card-text-color);
+  line-height: 1.2;
+  max-width: 30.2rem;
+}
+
+#card-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  max-height: 24.4rem;
+}
+
+#card-6 {
+  max-height: 13.6rem;
+}
+
+#card-7 {
+  max-height: 13.6rem;
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  position: relative;
+}
+
+#card-7 > .card__text {
+  max-width: 44.6rem;
+}
+
+.card__plane-img {
+  position: absolute;
+  bottom: 45.34;
+  left: 481.86;
+  transform: rotate(-15.31deg);
+}
+
+.cards__roughness-effect {
+  position: absolute;
+  min-width: 100%;
+  mix-blend-mode: color-burn;
+}
+
+.stages-info__card-slide {
+  min-width: 33.5rem;
+  min-height: 30rem;
+  background-image: url(../assets/imgs/stages/cooper_union_stamp_paper.png);
+  background-size: auto;
+  padding: 6.2rem 2.4rem 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.card__content-container {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.card__content-container > .card__num {
+  font-family: 'golosTextSemiBold';
+  font-size: 2rem;
+}
+.card__content-container > .card__text {
+  font-family: 'golosTextMedium';
+  font-size: 1.8rem;
+}
+
+/* SLIDER */
+
+.stages__slider {
+  max-width: 100%;
+  min-height: 30rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.stages-slider__slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: transform 1.2s;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.dots__dot {
+  border: none;
+  background-color: #d9d9d9;
+  opacity: 1;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dots__dot:last-child {
+  margin: 0;
+}
+
+.dots__dot--active {
+  background-color: #313131;
+  opacity: 1;
+}
+
+/* ========================================= */
+/* SECTION PARTICIPANTS */
+
+.participants {
+  padding: 20rem 7.2rem 0rem 7.2rem;
+}
+
+.participants-title__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participants-title__text {
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  font-family: 'merriweatherRegular';
+  font-size: 5.4rem;
+  line-height: 1.2;
+}
+
+.participants-control__container {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.control__arrow-btn {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 100rem;
+  background-color: var(--control-btn-bg-color);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.control__arrow-btn:hover {
+  background-color: var(--control-btn-hover-color);
+}
+
+.control__arrow-btn:disabled {
+  background-color: var(--control-btn-disabled-color);
+  cursor: default;
+}
+
+.control__counter-container {
+  font-size: 1.6rem;
+  font-family: 'golosTextRegular';
+  line-height: 1.2;
+  color: var(--control-counter-text-color);
+}
+
+.control__counter-middle,
+.control__counter-max,
+.control__counter-middle--m,
+.control__counter-max--m {
+  opacity: 0.6;
+}
+
+.participant__card {
+  max-width: 39.4rem;
+  text-align: center;
+}
+
+.participant__card > img {
+  width: 32rem;
+  height: 32rem;
+}
+
+.participant__name,
+.participant__status {
+  line-height: 1.2;
+  color: var(--title-text-color);
+}
+
+.participant__name {
+  font-family: 'golosTextSemiBold';
+  font-size: 2.4rem;
+  margin-top: 2.8rem;
+}
+
+.participant__status {
+  font-family: 'golosTextRegular';
+  font-size: 2rem;
+  opacity: 0.6;
+  margin-top: 0.6rem;
+}
+
+.participant__details {
+  border: 0.1rem solid var(--main-blue-color);
+  border-radius: 62px;
+  color: var(--main-blue-color);
+  font-family: 'golosTextMedium';
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  min-width: 11.3rem;
+  min-height: 3.5rem;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.participant__details:hover {
+  background-color: var(--main-blue-color);
+  color: var(--details-btn-hover-color);
+}
+
+/* SLIDER */
+
+.participants__slider {
+  max-width: 100%;
+  min-height: 46.2rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 6rem;
+}
+
+.slider__slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13.1rem;
+  transition: transform 1.2s;
+}
+
+.running-line--bottom {
+  margin-top: 14rem;
+  width: 100%;
+}
+
+/* ========================================= */
+/* FOOTER */
+
+footer {
+  max-width: 100%;
+  background-color: var(--footer-bg-color);
+}
+
+footer > h3 {
+  font-family: 'golosTextRegular';
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  opacity: 0.6;
+  padding: 4rem 7.2rem 7.2rem 7.2rem;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 136.6rem;
+}

@@ -1,0 +1,1033 @@
+@media (max-width: 1355px) {
+  .section__hero {
+    min-height: 60rem;
+    background-size: cover;
+  }
+  .logo {
+    margin-top: 2.6rem;
+    margin-bottom: 6.2rem;
+    gap: 0.635rem;
+  }
+  .logo-icons > svg {
+    width: 1.8rem;
+  }
+  .logo-title {
+    font-size: 1.4rem;
+  }
+  .roughness-effect {
+    max-height: 60rem;
+  }
+  .hero {
+    max-width: 102.4rem;
+  }
+  .hero__title-container {
+    max-width: 38rem;
+  }
+  .hero__title {
+    max-width: 38rem;
+  }
+  .hero__title > h1 {
+    font-size: 4rem;
+  }
+  .hero__title > h3 {
+    margin-top: 2.4rem;
+    font-size: 1.2rem;
+  }
+  .hero__btns > a {
+    font-size: 1.2rem;
+    border-radius: 6.6rem;
+    min-width: 18rem;
+    min-height: 5.2rem;
+  }
+  .section {
+    max-width: 102.4rem;
+  }
+  .support-title__container {
+    gap: 4rem;
+  }
+  .support-title__text {
+    font-size: 2.5rem;
+  }
+  .support-title__img {
+    max-width: 30rem;
+  }
+  .support__container {
+    gap: 1.4rem;
+  }
+  .support__picture-container {
+    min-width: 40rem;
+  }
+  .support__description-title {
+    font-size: 2.5rem;
+    max-height: 14.7rem;
+  }
+  .support__description-table {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+  }
+  .support__description-table > .table-row:first-child {
+    max-height: 3rem;
+  }
+  .support__description-table > .table-row:last-child {
+    max-height: 3rem;
+  }
+  .table-row {
+    gap: 1.6rem;
+  }
+  .table-name {
+    min-width: 20rem;
+    min-height: 4rem;
+  }
+  .table-value {
+    min-width: 100%;
+    min-height: 4rem;
+  }
+  .support__questions {
+    font-size: 1.4rem;
+  }
+  .stages {
+    padding: 10rem 7.2rem 0rem 7.2rem;
+  }
+  .stages-title__container {
+    max-width: 60rem;
+    position: relative;
+  }
+  .stages-title__text {
+    font-size: 3.6rem;
+  }
+  .stages-title__container > h3 {
+    font-size: 1.4rem;
+    max-width: 20rem;
+    bottom: 6;
+    left: 201;
+  }
+  .stages-info__container {
+    margin-top: 5.4rem;
+    font-size: 1.4rem;
+    gap: 1.4rem;
+  }
+  .stages-info__card {
+    padding: 1.6rem;
+    display: flex;
+    gap: 1.2rem;
+    background-image: url(../assets/imgs/stages/cooper_union_stamp_paper.png);
+    background-size: cover;
+    max-height: 11.2rem;
+  }
+  .card__num {
+    max-width: 2.4rem;
+    max-height: 2.4rem;
+    min-width: 2.4rem;
+    min-height: 2.4rem;
+  }
+  .card__plane-img {
+    position: absolute;
+    bottom: 30;
+    left: 340;
+    transform: rotate(-15.31deg);
+    max-width: 28rem;
+  }
+  #card-7 > .card__text {
+    max-width: 30rem;
+  }
+  .participants {
+    padding: 10rem 7.2rem 0rem 7.2rem;
+    margin: 0 auto;
+  }
+  .participants-title__text {
+    font-size: 3.6rem;
+  }
+  .participants-control__container {
+    gap: 1rem;
+  }
+  .control__arrow-btn {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .control__arrow-btn > svg {
+    width: 1rem;
+    height: 1.4rem;
+  }
+  .control__counter-container {
+    font-size: 1.2rem;
+  }
+  .participants__slider {
+    min-height: 35.6rem;
+    margin-top: 3rem;
+  }
+  .slider__slide {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .participant__card {
+    max-width: 24rem;
+    text-align: center;
+  }
+  .participant__card > img {
+    width: 24rem;
+    height: 24rem;
+  }
+  .participant__name {
+    font-size: 2rem;
+    margin-top: 2.2rem;
+  }
+
+  .participant__status {
+    font-size: 1.3rem;
+  }
+  .participant__details {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    min-width: 8rem;
+    min-height: 3rem;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  footer > h3 {
+    font-size: 1.4rem;
+    padding: 3.6rem 7.2rem 7.2rem 7.2rem;
+    max-width: 102.4rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .section__hero {
+    min-height: 45rem;
+    background-size: cover;
+  }
+  .logo {
+    margin-top: 2.6rem;
+    margin-bottom: 5.4rem;
+    gap: 0.635rem;
+  }
+  .logo-icons > svg {
+    width: 1.4rem;
+  }
+  .logo-title {
+    font-size: 1rem;
+  }
+  .roughness-effect {
+    max-height: 45rem;
+  }
+  .running-line {
+    margin-top: 6rem;
+  }
+  .hero {
+    max-width: 76.8rem;
+  }
+  .hero__title-container {
+    max-width: 38rem;
+  }
+  .hero__title {
+    max-width: 26rem;
+  }
+  .hero__title > h1 {
+    font-size: 2.8rem;
+  }
+  .hero__title > h3 {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .hero__btns {
+    margin-top: 2.4rem;
+  }
+  .hero__btns > a {
+    font-size: 1rem;
+    min-width: 11rem;
+    min-height: 4rem;
+  }
+  .section {
+    max-width: 76.8rem;
+  }
+  .info {
+    padding: 3.6rem;
+    padding-top: 6rem;
+  }
+  .support-title__container {
+    gap: 3.2rem;
+  }
+  .support-title__text {
+    font-size: 2rem;
+  }
+  .support-title__img {
+    max-width: 24rem;
+  }
+  .support__container {
+    gap: 1.4rem;
+  }
+  .support__picture-container {
+    min-width: 30rem;
+  }
+  .support__description-title {
+    font-size: 2rem;
+    max-height: 14.7rem;
+  }
+  .support__description-table {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+  .support__description-table > .table-row:first-child {
+    max-height: 2.6rem;
+  }
+  .support__description-table > .table-row:last-child {
+    max-height: 2.6rem;
+  }
+  .table-row {
+    gap: 1.2rem;
+  }
+  .table-name {
+    min-width: 18rem;
+    min-height: 3.6rem;
+  }
+  .table-value {
+    min-width: 100%;
+    min-height: 3.6rem;
+  }
+  .support__questions {
+    font-size: 1.1rem;
+  }
+  .stages {
+    padding: 6rem 3.6rem 0 3.6rem;
+  }
+  .stages-title__container {
+    max-width: 40rem;
+    position: relative;
+  }
+  .stages-title__text {
+    font-size: 2.8rem;
+  }
+  .stages-title__container > h3 {
+    font-size: 1.1rem;
+    max-width: 16rem;
+    bottom: 4;
+    left: 161;
+  }
+  .stages-info__container {
+    margin-top: 3.2rem;
+    font-size: 1.1rem;
+    gap: 1.4rem;
+  }
+  .stages-info__card {
+    padding: 1.6rem;
+    display: flex;
+    gap: 1.2rem;
+    background-image: url(../assets/imgs/stages/cooper_union_stamp_paper.png);
+    background-size: cover;
+    max-height: 9rem;
+  }
+  .card__num {
+    max-width: 2.2rem;
+    max-height: 2.2rem;
+    min-width: 2.2rem;
+    min-height: 2.2rem;
+  }
+  .card__plane-img {
+    position: absolute;
+    bottom: 30;
+    left: 270;
+    transform: rotate(-15.31deg);
+    max-width: 20rem;
+  }
+  #card-7 > .card__text {
+    max-width: 24rem;
+  }
+  .participants {
+    padding: 8rem 3.6rem 0rem 3.6rem;
+  }
+  .participants-title__text {
+    font-size: 2.8rem;
+  }
+  .participants-control__container {
+    gap: 1rem;
+  }
+  .control__arrow-btn {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .control__arrow-btn > svg {
+    width: 0.9rem;
+    height: 1.3rem;
+  }
+  .control__counter-container {
+    font-size: 1.1rem;
+  }
+  .participants__slider {
+    min-height: 28.3rem;
+    margin-top: 6rem;
+  }
+  .slider__slide {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .participant__card {
+    max-width: 18rem;
+    text-align: center;
+  }
+  .participant__card > img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .participant__name {
+    font-size: 1.5rem;
+    margin-top: 2.2rem;
+  }
+
+  .participant__status {
+    font-size: 1.2rem;
+  }
+  .participant__details {
+    font-size: 0.8rem;
+    margin-top: 1.6rem;
+    min-width: 7rem;
+    min-height: 2.6rem;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  .running-line--bottom {
+    margin-top: 8rem;
+  }
+  .running-line {
+    --gap: 0.8rem;
+    min-height: 4rem;
+  }
+  .running-line__content {
+    gap: var(--gap);
+    font-size: 1.4rem;
+  }
+  .running-line__circle {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+  footer > h3 {
+    font-size: 1.2rem;
+    padding: 3.6rem;
+    max-width: 76.8rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .section__hero {
+    min-height: 38rem;
+    background-size: cover;
+  }
+  .roughness-effect {
+    max-height: 38rem;
+  }
+  .running-line {
+    margin-top: 6rem;
+  }
+  .hero {
+    max-width: 59rem;
+    padding: 0 2.4rem;
+  }
+  .hero__title-container {
+    max-width: 38rem;
+  }
+  .hero__title {
+    max-width: 20rem;
+  }
+  .hero__title > h1 {
+    font-size: 2.2rem;
+  }
+  .hero__title > h3 {
+    margin-top: 1.6rem;
+    font-size: 0.8rem;
+  }
+  .hero__btns {
+    margin-top: 1.8rem;
+  }
+  .hero__btns > a {
+    font-size: 0.8rem;
+    min-width: 9rem;
+    min-height: 3.8rem;
+  }
+  .section {
+    max-width: 59rem;
+  }
+  .info {
+    padding: 6rem 2.4rem 0rem 2.4rem;
+  }
+  .support-title__container {
+    gap: 3.2rem;
+  }
+  .support-title__text {
+    font-size: 1.6rem;
+  }
+  .support-title__img {
+    max-width: 22rem;
+  }
+  .support__container {
+    margin-top: 2.4rem;
+    gap: 1.4rem;
+  }
+  .support__picture-container {
+    min-width: 24rem;
+  }
+  .support__description-title {
+    font-size: 1.6rem;
+    max-height: 14.7rem;
+  }
+  .support__description-table {
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+  .support__description-table > .table-row:first-child {
+    max-height: 2.2rem;
+  }
+  .support__description-table > .table-row:last-child {
+    max-height: 2.2rem;
+  }
+  .table-row {
+    gap: 0;
+  }
+  .table-name {
+    min-width: 12rem;
+    min-height: 3.2rem;
+  }
+  .table-value {
+    min-width: 100%;
+    min-height: 3.2rem;
+  }
+  .support__questions {
+    font-size: 1rem;
+  }
+  .stages {
+    padding: 4rem 2.4rem 0 2.4rem;
+  }
+  .stages-title__container {
+    max-width: 30rem;
+  }
+  .stages-title__text {
+    font-size: 2rem;
+  }
+  .stages-title__container > h3 {
+    font-size: 0.8rem;
+    max-width: 16rem;
+    bottom: 1;
+    left: 115;
+  }
+  .stages-info__container {
+    margin-top: 2.4rem;
+    font-size: 1rem;
+    gap: 1.2rem;
+  }
+  .stages-info__card {
+    padding: 1.6rem;
+    display: flex;
+    gap: 1.2rem;
+    background-image: url(../assets/imgs/stages/cooper_union_stamp_paper.png);
+    background-size: cover;
+    max-height: 9.4rem;
+  }
+  .card__num {
+    max-width: 2.2rem;
+    max-height: 2.2rem;
+    min-width: 2.2rem;
+    min-height: 2.2rem;
+  }
+  .card__plane-img {
+    bottom: 64;
+    left: 255;
+    max-width: 12rem;
+  }
+  #card-7 > .card__text {
+    max-width: 22rem;
+  }
+  .participants {
+    padding: 6rem 2.4rem 0rem 2.4rem;
+  }
+  .participants-title__text {
+    font-size: 2rem;
+  }
+  .participants-control__container {
+    gap: 0.8rem;
+  }
+  .control__arrow-btn {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+  .control__arrow-btn > svg {
+    width: 0.8rem;
+    height: 1.2rem;
+  }
+  .control__counter-container {
+    font-size: 1rem;
+  }
+  .participants__slider {
+    min-height: 29.5rem;
+    margin-top: 4rem;
+  }
+  .slider__slide {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .participant__card {
+    max-width: 16rem;
+    text-align: center;
+  }
+  .participant__card > img {
+    width: 16rem;
+    height: 16rem;
+  }
+  .participant__name {
+    font-size: 1.3rem;
+    margin-top: 2.2rem;
+  }
+
+  .participant__status {
+    font-size: 1rem;
+  }
+  .participant__details {
+    font-size: 0.8rem;
+    margin-top: 1.6rem;
+    min-width: 7rem;
+    min-height: 2.6rem;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  .running-line--bottom {
+    margin-top: 3.6rem;
+  }
+  .running-line {
+    --gap: 0.8rem;
+    min-height: 4rem;
+  }
+  .running-line__content {
+    gap: var(--gap);
+    font-size: 1.4rem;
+  }
+  .running-line__circle {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+  footer > h3 {
+    font-size: 1rem;
+    padding: 2.4rem;
+    max-width: 59rem;
+  }
+}
+
+@media (max-width: 589px) {
+  .section__hero {
+    min-height: 81.2rem;
+    background-image: none;
+  }
+  .logo {
+    margin-top: 1.8rem;
+    margin-bottom: 4rem;
+    gap: 0.55rem;
+  }
+  .logo-icons > svg {
+    width: 1.875rem;
+  }
+  .logo-title {
+    font-size: 1.442rem;
+  }
+  .roughness-effect {
+    min-height: 81.2rem;
+  }
+  .hero__background-img {
+    position: absolute;
+    max-width: 90rem;
+    bottom: 0.3rem;
+    right: -7.1rem;
+  }
+  .running-line {
+    margin-top: 29.1rem;
+  }
+  .hero {
+    max-width: 33.5rem;
+    padding: 0;
+  }
+  .hero__title-container {
+    max-width: 33.5rem;
+  }
+  .hero__title {
+    max-width: 33.5rem;
+  }
+  .hero__title > h1 {
+    font-size: 3.6rem;
+  }
+  .hero__title > h3 {
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+  }
+  .hero__btns {
+    margin-top: 3.2rem;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .btn__support > br,
+  .btn__info > br {
+    display: none;
+  }
+  .hero__btns > a {
+    font-size: 1.6rem;
+    max-width: 100%;
+    min-height: 4.7rem;
+  }
+  .section {
+    max-width: 37.5rem;
+  }
+  .info {
+    padding: 6rem 2rem 0rem 2rem;
+  }
+  .resp-w {
+    display: none;
+  }
+  .resp-m {
+    display: block;
+  }
+  .support-title__container {
+    gap: 3.2rem;
+    flex-direction: column;
+  }
+  .support-title__text {
+    font-size: 2.8rem;
+  }
+  .support-title__img {
+    max-width: 33.5rem;
+  }
+  .support__container {
+    margin-top: 2.4rem;
+    gap: 1.4rem;
+    flex-direction: column;
+  }
+  .support__picture-container {
+    max-width: 42rem;
+  }
+  .support__description-title {
+    font-size: 2.8rem;
+    max-height: fit-content;
+  }
+  .support__description-table {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .support__description-table > .table-row:first-child {
+    max-height: fit-content;
+    margin-top: 0;
+  }
+  .support__description-table > .table-row:last-child {
+    max-height: fit-content;
+  }
+  .table-row {
+    gap: 0;
+    flex-direction: column;
+    margin-top: 1.6rem;
+  }
+  .table-name {
+    min-width: 100%;
+    min-height: fit-content;
+    opacity: 0.7;
+    margin-bottom: 1.2rem;
+  }
+  .table-value {
+    min-width: 100%;
+    min-height: fit-content;
+    border-left: 0;
+    padding-left: 0;
+    padding-bottom: 1.6rem;
+  }
+  .support__questions {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+  }
+  .stages {
+    padding: 12rem 2rem 0 2rem;
+  }
+  .stages-title__container {
+    max-width: fit-content;
+  }
+  .stages-title__text {
+    font-size: 3.6rem;
+  }
+  .stages-title__container > h3 {
+    position: static;
+    font-size: 1.8rem;
+    max-width: fit-content;
+    margin-top: 1.2rem;
+  }
+  .stages-info__container {
+    margin-top: 14.8rem;
+    font-size: 1.8rem;
+    gap: 0;
+  }
+  .stages-info__container-slider {
+    margin-top: 14.8rem;
+    position: relative;
+  }
+  .stages-info__card {
+    padding: 1.6rem;
+    display: flex;
+    gap: 1.2rem;
+    background-image: url(../assets/imgs/stages/cooper_union_stamp_paper.png);
+    background-size: cover;
+    max-height: 9.4rem;
+  }
+  .card__num {
+    max-width: 3.6rem;
+    max-height: 3.6rem;
+    min-width: 3.6rem;
+    min-height: 3.6rem;
+  }
+  .card__plane-img {
+    bottom: 310;
+    left: 0;
+    transform: rotate(0deg);
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #card-7 > .card__text {
+    max-width: 22rem;
+  }
+  .stages-control__container {
+    margin-top: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  .participants {
+    padding: 6rem 2.4rem 0rem 2.4rem;
+  }
+  .participants-title__text {
+    font-size: 3.6rem;
+  }
+  .participants-control__container--m {
+    gap: 1.4rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .control__arrow-btn {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+  .control__arrow-btn > svg {
+    width: 1rem;
+    height: 1.4rem;
+  }
+  .control__counter-container {
+    font-size: 1.6rem;
+  }
+  .participants__slider {
+    min-height: 33.5rem;
+    margin-top: 4rem;
+  }
+  .slider__slide--m {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+  }
+  .participant__card {
+    max-width: 33.5rem;
+    text-align: center;
+  }
+  .participant__card > img {
+    width: 24.4rem;
+    height: 24.4rem;
+  }
+  .participant__name {
+    font-size: 2.4rem;
+    margin-top: 2.8rem;
+  }
+  .participant__status {
+    margin-top: 0.8rem;
+    font-size: 2rem;
+  }
+  .participant__details {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    min-width: 11.3rem;
+    min-height: 3.5rem;
+  }
+  .running-line--bottom {
+    margin-top: 10rem;
+  }
+  .running-line {
+    --gap: 1.2rem;
+    min-height: 3.8rem;
+  }
+  .running-line__content {
+    gap: var(--gap);
+    font-size: 1.6rem;
+  }
+  .running-line__circle {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+  footer > h3 {
+    font-size: 1.6rem;
+    padding: 4rem 2rem 6rem 2rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 345px) {
+  .section__hero {
+    min-height: 81.2rem;
+    background-image: none;
+  }
+  .logo {
+    margin-top: 1.8rem;
+    margin-bottom: 4rem;
+    gap: 0.55rem;
+  }
+  .logo-icons > svg {
+    width: 1.875rem;
+  }
+  .logo-title {
+    font-size: 1.442rem;
+  }
+  .roughness-effect {
+    min-height: 81.2rem;
+  }
+  .hero__background-img {
+    position: absolute;
+    max-width: 90rem;
+    bottom: 0.3rem;
+    right: -7.1rem;
+  }
+  .running-line {
+    margin-top: 29.1rem;
+  }
+  .hero {
+    max-width: 31.5rem;
+    padding: 0;
+  }
+  .hero__title-container {
+    max-width: 31.5rem;
+  }
+  .hero__title {
+    max-width: 31.5rem;
+  }
+  .hero__title > h1 {
+    font-size: 3.2rem;
+  }
+  .hero__title > h3 {
+    margin-top: 2.2rem;
+    font-size: 1.6rem;
+  }
+  .hero__btns {
+    margin-top: 3.2rem;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .btn__support > br,
+  .btn__info > br {
+    display: none;
+  }
+  .hero__btns > a {
+    font-size: 1.5rem;
+    max-width: 100%;
+    min-height: 4.7rem;
+  }
+  .section {
+    max-width: 31.5rem;
+  }
+  .info {
+    padding: 6rem 1.2rem 0rem 1.2rem;
+  }
+  .support-title__container {
+    gap: 3.2rem;
+    flex-direction: column;
+  }
+  .support-title__text {
+    font-size: 2.6rem;
+  }
+  .support-title__img {
+    max-width: 30rem;
+  }
+  .support__container {
+    margin-top: 2.4rem;
+    gap: 1.4rem;
+    flex-direction: column;
+  }
+  .support__picture-container {
+    max-width: 42rem;
+  }
+  .support__description-title {
+    font-size: 2.6rem;
+    max-height: fit-content;
+  }
+  .support__description-table {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+  .support__description-table > .table-row:first-child {
+    max-height: fit-content;
+    margin-top: 0;
+  }
+  .support__description-table > .table-row:last-child {
+    max-height: fit-content;
+  }
+  .table-row {
+    gap: 0;
+    flex-direction: column;
+    margin-top: 1.6rem;
+  }
+  .table-name {
+    min-width: 100%;
+    min-height: fit-content;
+    opacity: 0.7;
+    margin-bottom: 1.2rem;
+  }
+  .table-value {
+    min-width: 100%;
+    min-height: fit-content;
+    border-left: 0;
+    padding-left: 0;
+    padding-bottom: 1.6rem;
+  }
+  .support__questions {
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+  .stages {
+    padding: 8rem 1.2rem 0 1.2rem;
+  }
+  .stages-title__container {
+    max-width: fit-content;
+  }
+  .stages-title__text {
+    font-size: 3.2rem;
+  }
+  .stages-title__container > h3 {
+    font-size: 1.6rem;
+  }
+  .card__num {
+    max-width: 3.2rem;
+    max-height: 3.2rem;
+    min-width: 3.2rem;
+    min-height: 3.2rem;
+  }
+  .card__text {
+    max-width: 22rem;
+  }
+  .participants {
+    padding: 4rem 1.2rem 0rem 1.2rem;
+  }
+  .participant__name {
+    font-size: 2.2rem;
+  }
+  .participant__status {
+    font-size: 1.8rem;
+  }
+  .participant__details {
+    font-size: 1.6rem;
+  }
+  .running-line {
+    margin-top: 10rem;
+  }
+  footer > h3 {
+    font-size: 1.6rem;
+    padding: 4rem 1.2rem 6rem 1.2rem;
+    max-width: 31.5rem;
+  }
+}
